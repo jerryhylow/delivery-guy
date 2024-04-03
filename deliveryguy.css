@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    position: relative;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 250px;
+}
+nav ul li {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    position: absolute;
+    left: 50px;
+}
+.call {
+    width: 140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(143, 192, 143);
+    color: rgb(140, 177, 140);
+    border-width: 0.5px;
+    margin-left: 300px;
+    position: absolute;
+     right: 220px;
+     background-color: white;
+     border-radius: 2px;
+}
+.user {
+    position: absolute;
+    right: 170px;
+}
+.chat {
+      position: absolute;
+      right: 80px;
+}
+.cart {
+    position: absolute;
+    right: 125px;
+}
+.order {
+    color: rgb(143, 192, 143);
+}
+section {
+    width: 100%;
+    height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.delight {
+    margin-top: -150px;
+    width: 65%;
+    height: 450px;
+    background-color: blu 
+}
+.bike {
+    margin-top: -150px;
+    width: 750px;
+    height: 450px;
+    border-radius: 50%;
+}
+.deli {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: small;
+}
+.signin{
+        margin-left: 30px;
+        width: 100px ;
+        height: 30px;
+        background-color: rgb(115, 190, 115) ;
+        border-width: 0cap;
+        border-radius: 2px;
+
+}
+.signup{
+    margin-left: 20px;
+    width: 100px ;
+    height: 30px;
+    background-color: white;
+    border-width: 0.2px;
+    border-radius: 2px;
+}
+span {
+    color: rgb(115, 190, 115)  ;
+}
+.official {
+    width: 100%;
+    height: 150px;
+    /* background-color: cadetblue; */
+    position:absolute ;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.off {
+    text-align: center;
+    margin-top: -80px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Foodpanda {
+    position: absolute;
+    bottom: 10px;
+    left: 170px;
+
+}
+.pathaofood {
+    position: absolute;
+    bottom: 10px;
+}
+.ubereat {
+    position: absolute;
+    bottom: 10px;
+    right:170px ;
+}
+
+.doorpic {
+    width: 40%;
+    height: 450px;
+    background-color: darkgrey;
+
+}
+.weare {
+    width: 60%;
+    height: 450px;
+    background-color: bisque;
+}
+.weare h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.weare p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-left: -1px;
+}
